@@ -1,0 +1,8 @@
+plugins {
+    id 'java'
+}
+
+task evaluator5( type: JavaExec ) {
+  main = 'com.pheval.Evaluator5'
+  classpath = sourceSets.main.runtimeClasspath
+}
